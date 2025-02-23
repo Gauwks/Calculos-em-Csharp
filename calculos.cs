@@ -49,7 +49,7 @@ namespace Treinos_e_Exercícios
                     Console.WriteLine($"O Resultado da Divisão é: {n1} / {n2} = {n1 / n2}");
                     break;
                 case "M":
-                    Console.WriteLine($"A Média desses números é: {n1} + {n2} / {2} = {n1 + n2 / 2}");
+                    Console.WriteLine($"A Média desses números é: ({n1} + {n2}) / {2} = ({n1 + n2 / 2})");
                     break;
                 case "A":
                     Console.WriteLine($"A Área desse Retângulo é: {n1} * {n2} = {n1 * n2}");
@@ -58,19 +58,19 @@ namespace Treinos_e_Exercícios
                     Console.WriteLine($"A Área desse Retângulo é: {n2} * {n1} = {n2 * n1}");
                     break;
                 case "AT":
-                    Console.WriteLine($"A Área desse Triângulo é: {n1} * {n2} = {n1 * n2}");
+                    Console.WriteLine($"A Área desse Triângulo é: ({n1} * {n2}) / {2} = ({n1 * n2}) / {2}");
                     break;
                 case "AT2":
                     Console.WriteLine($"A Área desse Triângulo é: {n2} * {n1} = {n2 * n1}");
                     break;
                 case "c":
-                    Console.WriteLine($"A Conversão do primeiro número para Fahrenheit é: {n1} * {9/5} + {32} = {n1 * 9/5 + 32}");
+                    Console.WriteLine($"A Conversão do primeiro número para Fahrenheit é: {n1} * 1.8 + 32 = {n1 * 1.8 + 32}");
                     break;
                 case "c2":
-                    Console.WriteLine($"A Conversão do primeiro número para Fahrenheit é: {n2} * {9 / 5} + {32} = {n2 * 9 / 5 + 32}");
+                    Console.WriteLine($"A Conversão do primeiro número para Fahrenheit é: {n2} * 1.8 + 32 = {n2 * 1.8 + 32}");
                     break;
                 case "i":
-                    Console.WriteLine($"O calculo do IMC é: {n1} / {n2} * {n2} = {n1} / {n2} * {n2}");
+                    Console.WriteLine($"O cálculo do IMC é: {n1} / ({n2} * {n2}) = {n1 / (n2 * n2)}");
                     break;
             }
 
